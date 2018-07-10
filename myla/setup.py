@@ -9,23 +9,23 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='radnlp',
+    name='myla',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.2.0.8',
+    version='0.1.0.1',
 
-    description='Utilities for natural language processing of radiology reports',
+    description='Collection of work from DeCART 2018 at Univ Utah',
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/chapmanbe/RadNLP',
+    url='https://github.com/jreistetter/jreistetter/decart_advanced_python_2018',
 
     # Author details
-    author='Brian Chapman',
+    author='Joe Reistetter',
 
-    author_email='brian.chapman@utah.edu',
+    author_email='joe.reistetter@utah.edu',
 
     # Choose your license
     license='http://www.apache.org/licenses/LICENSE-2.0',
@@ -47,12 +47,11 @@ setup(
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
     ],
 
     # What does your project relate to?
-    keywords='Radiology, NLP, Medical Informatics',
+    keywords='learning purposes only',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
@@ -62,7 +61,7 @@ setup(
     # project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['pyConTextNLP'],
+    install_requires=['matplotlib', 'numpy'],
 
     # List additional groups of dependencies here (e.g. development dependencies).
     # You can install these using the following syntax, for example:
